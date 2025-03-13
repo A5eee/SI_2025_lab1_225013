@@ -1,0 +1,5 @@
+* 2d89337 Implemented filterTasksByCategory feature
+* 6d339ed Implement sortTasksByPriority feature
+* d0cb32d Implemented find all completed tasks feature
+* 4804bc5 Add starter code
+* 26ffdbf Initial commit

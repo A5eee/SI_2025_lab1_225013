@@ -1,0 +1,10 @@
+
+1.Го иницијализирав локалниот Git репозиториум: git init
+2.Го поврзав локалниот репозиториум со оддалечениот: git remote add origin https://github.com/A5eee/SI_2025_lab1_225013
+3.Ја преименував главната гранка во master: git branch -M master
+4.Креирав нова гранка за секоја нова функционалност: git checkout -b feature-name
+5.Додавав промени, креирав commit и ја испраќав гранката на GitHub
+6.Ги спојував дополнителните гранки со master
+7.Ја сингронизирав гранката master со GitHub: git push origin master
+8.Ги поставив графот на сите комити и грнки во датотеката logs.txt: git log --oneline --graph --all
+
