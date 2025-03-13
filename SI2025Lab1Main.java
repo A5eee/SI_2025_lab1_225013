@@ -70,6 +70,10 @@ class TaskManager {
     // 2. Find all completed tasks
     public List<Task> getCompletedTasks() {
         // TODO: Implement logic to return completed tasks
+            return tasks.stream()
+                    .filter(Task::isCompleted)
+                    .collect(Collectors.toList());
+        
         return new ArrayList<>();
     }
 
@@ -81,6 +85,9 @@ class TaskManager {
     // 4. Sort tasks by priority
     public void sortTasksByPriority() {
         // TODO: Implement sorting by priority logic
+        return tasks.stream()
+            .sorted(Comparator.comparing(Task::getPriority))
+            .collect(Collectors.toList());
     }
 
     // 5. Filter tasks by category
